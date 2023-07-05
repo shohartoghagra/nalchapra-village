@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.unlist{
+list-style: none;
+display: flex;
+position: fixed;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5rem;
+color: rgb(85, 236, 15);
+    
+}
+
+.div-container{  
+    background-image: url(/image/cute.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;   
+}
+
+img{
+    height:500px;
+    width: 100%;
+}
+h1{
+text-align: center;
+
+}
+p{
+    padding: .5rem;
+}
+
+footer{
+    margin-top: 10px;
+    height: 50vh;
+    background-image: url(/image/footer.jpg);
+}
+.grid-condtainer{
+display: grid;
+grid-template-columns:auto auto auto auto ;
+
+
+}
+.footer_item{
+    margin-top: 3rem;
+     font-size: 1.5rem;
+
+}
